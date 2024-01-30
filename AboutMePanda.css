@@ -1,0 +1,29 @@
+ .glow-box {
+      width: auto-fit;
+      height: auto-fit;
+      background-color: #edf3f5;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #edf3f5, 0 0 20px #edf3f5, 0 0 30px #edf3f5;
+      animation: glow 1s infinite alternate;
+      text-align: center;
+      padding: 20px;
+      margin: auto-fit;
+    }
+
+    @keyframes glow {
+      0% {
+        box-shadow: 0 0 10px #edf3f5, 0 0 20px #edf3f5, 0 0 30px #edf3f5;
+      }
+      100% {
+        box-shadow: 0 0 20px #edf3f5, 0 0 30px #edf3f5, 0 0 40px #edf3f5;
+      }
+    }
+   p{
+    height: auto-fit;
+    width: auto-fit;
+     color: black;
+     font-size: auto-fit;
+     align-items: center;
+     text-align: center;
+     margin: auto-fit;
+    }
