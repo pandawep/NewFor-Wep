@@ -67,15 +67,15 @@
       text-transform: uppercase;
       border: none;
       letter-spacing: 0.1rem;
-      font-size: 60px ;
-      padding:70px;
+      font-size: 30px ;
+      padding:30px;
       transition: 0.2s;
      
     }
     
     button:hover {
       letter-spacing: 0.2rem;
-      padding: 71px;
+      padding: 31px;
       background: var(--clr);
       color: var(--clr);
       /* box-shadow: 0 0 35px var(--clr); */
