@@ -27,7 +27,7 @@
   
   
   #xh1{
-      color: #fc0000e7;
+      color: #ffffffe7;
       animation: h15 3s infinite;
       animation: glow 2s infinite;
       font-size: 6rem;
@@ -140,7 +140,7 @@
       50% {
         transform: translateX(5px);
       }
-      200% {
+      100% {
         transform: translateX(0);
       }
     }
