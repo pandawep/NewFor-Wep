@@ -31,6 +31,8 @@
       animation: h15 3s infinite;
       animation: glow 2s infinite;
       font-size: 6rem;
+      margin-top: 10%;
+      margin-bottom: 10%;
   }
   #xyz{
       color: #f6f6ff00;
@@ -39,6 +41,7 @@
     color: #db0f00;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
+    margin-top: 20%;
   }
   \* {
       margin: 0;
