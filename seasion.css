@@ -1,0 +1,9 @@
+.custom-pre {
+    font-size: 15px; /* Set font size to 15 pixels */
+    color: #8A2BE2; /* Set text color to a specific color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.custom-pre:hover {
+    color: #FFA500; /* Change text color on hover */
+}
