@@ -37,26 +37,13 @@
   #xyz{
       color: #f6f6ff00;
   }
-  p{
-    color: #db0f00;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px
-  }
+
   \* {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-   body {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      background: linear-gradient(to right, #9ae0e6, rgb(163, 209, 191), rgb(163, 181, 184), rgb(180, 157, 211));
 
-    }
     
     button {
       margin: 10px;
