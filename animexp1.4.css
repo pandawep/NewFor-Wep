@@ -30,7 +30,16 @@ a:hover{
     align-items: center;
     justify-content: center;
 }
-
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(204, 196, 196, 0.308);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .video-container {
     height:100%;
     position: relative;
@@ -71,23 +80,23 @@ a:hover{
   }
 /*button*/
   #xbto2 {
-    margin: 20px;
+    margin: 10px;
     position: relative;
-    background: #a3888800;
-    color: #ffffff;
+    background: #a38888;
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     border: none;
     letter-spacing: 0.1rem;
-    font-size: 40px ;
-    padding:15px;
+    font-size: 60px ;
+    padding: 30px;
     transition: 0.2s;
    
   }
   
   #xbto2:hover {
     letter-spacing: 0.2rem;
-    padding: 16px;
+    padding: 31px;
     background: var(--clr);
     color: var(--clr);
     /* box-shadow: 0 0 35px var(--clr); */
@@ -152,7 +161,7 @@ a:hover{
       transform: translateX(0);
     }
     50% {
-      transform: translateX(3px);
+      transform: translateX(30px);
     }
     100% {
       transform: translateX(0);
@@ -166,7 +175,7 @@ a:hover{
       box-shadow: #dcdcdf;
     }
     50% {
-      box-shadow: 0 0 10px var(--clr);
+      box-shadow: 0 0 100px var(--clr);
     }
     100% {
       box-shadow: #bfbfcf;
