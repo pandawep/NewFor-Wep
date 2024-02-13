@@ -1,0 +1,38 @@
+.video-container {
+    height:100%;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video1 {
+    margin: 12px ;
+    width: 852px;
+    height: 480px;
+    padding: 1px;
+    position: relative;
+    box-shadow: 0 0 30px rgba(58, 1, 1, 0.966);
+    background-color: rgba(235, 235, 235, 0);
+}
+
+#video1::-webkit-media-controls-panel {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#video1::-webkit-media-controls-play-button,
+#video1::-webkit-media-controls-pause-button,
+#video1::-webkit-media-controls-fullscreen-button {
+    display: inline;
+}
+\* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
