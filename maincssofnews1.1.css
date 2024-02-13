@@ -2077,8 +2077,8 @@ a.btn.disabled,fieldset:disabled a.btn{
 }
 .btn-info{
     color:#fff;
-    background-color:#74b9ff;
-    border-color:#74b9ff
+    background-color:#0180ff;
+    border-color:#d3e0ec
 }
 .btn-info:hover{
     color:#fff;
@@ -4116,7 +4116,7 @@ a.badge-dark.focus,a.badge-dark:focus{
 .jumbotron{
     padding:2rem 1rem;
     margin-bottom:2rem;
-    background-color:#e9ecef;
+    background-color: rgba(248, 0, 0, 0);
     border-radius:.3rem
 }
 @media (min-width:576px){
